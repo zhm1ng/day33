@@ -1,0 +1,46 @@
+@import "public";
+nav a{
+    background:pink;
+    header &{
+           background : yellow;
+    }
+}
+.bigbox{
+    width:400px;
+    height:600px;
+    border:1px solid #333;
+    .top{
+        width:400px;
+        height:400px;
+        .leftmark{
+            width:200px;
+            height:200px;
+            .leftbnt{
+                width:10px;
+                height:10px;
+            }
+        }
+        .rightmark{
+            width:100px;
+            height:100px;
+        }
+    }
+    .bottom{
+        width:300px;
+        height:500px;
+        border:{
+            style:solid;
+            left:{
+                width:4px;
+                color:#fcc;
+            }
+            right:{
+                width:5px;
+                color:black;
+            }
+        }
+    }
+}
+span{
+    font-size:$fontSize;
+}

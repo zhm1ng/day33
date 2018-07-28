@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+nav a {
+  background: pink; }
+  header nav a {
+    background: yellow; }
+
+.bigbox {
+  width: 400px;
+  height: 600px;
+  border: 1px solid #333; }
+  .bigbox .top {
+    width: 400px;
+    height: 400px; }
+    .bigbox .top .leftmark {
+      width: 200px;
+      height: 200px; }
+      .bigbox .top .leftmark .leftbnt {
+        width: 10px;
+        height: 10px; }
+    .bigbox .top .rightmark {
+      width: 100px;
+      height: 100px; }
+  .bigbox .bottom {
+    width: 300px;
+    height: 500px;
+    border-style: solid;
+    border-left-width: 4px;
+    border-left-color: #fcc;
+    border-right-width: 5px;
+    border-right-color: black; }
+
+span {
+  font-size: 24px; }
